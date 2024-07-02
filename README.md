@@ -90,5 +90,5 @@ Typically at http://localhost:3000/
 * Open the Solidity file in the repository named as assessment.sol and copy the code and paste it to the IDE you use.
 * Add sol suffixes in your file name if you try to run it to the IDE so it read as a SOLIDITY FILE
 * Compile the code and then deploy it and use it freely.
-* * Run the program at http://localhost:3000/ too.
+* Run the program at http://localhost:3000/ too.
   
