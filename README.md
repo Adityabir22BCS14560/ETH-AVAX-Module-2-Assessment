@@ -12,7 +12,7 @@ This assessment is for showing smart contract management with 2-3 functions. The
   
 ### Contract Definition
 #### contract SimpleCalculator 
-This starts the definition of the SimpleCalculator contract.
+* This starts the definition of the SimpleCalculator contract.
 
 ### State Variables
     uint256 public value1;
