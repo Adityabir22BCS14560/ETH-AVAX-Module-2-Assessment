@@ -3,8 +3,9 @@ This assessment is for showing smart contract management with 2-3 functions. The
 
 ## Solidity Code Explanation
 ### SPDX License Identifier
-* // SPDX-License-Identifier: MIT
-This specifies the license under which the code is released. In this case, it's the MIT license.
+#### // SPDX-License-Identifier: MIT
+* This specifies the license under which the code is released. In this case, it's the MIT license.
+  
 Pragma Directive
 
 pragma solidity ^0.8.0;
