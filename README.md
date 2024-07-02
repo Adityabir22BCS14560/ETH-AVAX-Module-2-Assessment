@@ -7,26 +7,24 @@ This assessment is for showing smart contract management with 2-3 functions. The
 * This specifies the license under which the code is released. In this case, it's the MIT license.
   
 ### Pragma Directive
-
-pragma solidity ^0.8.0;
-This specifies the version of the Solidity compiler to be used. Here, the code is compatible with any version of Solidity 0.8.0 or later.
-Contract Definition
-
-contract SimpleCalculator {
+#### pragma solidity ^0.8.0;
+* This specifies the version of the Solidity compiler to be used. Here, the code is compatible with any version of Solidity 0.8.0 or later.
+  
+### Contract Definition
+#### contract SimpleCalculator 
 This starts the definition of the SimpleCalculator contract.
-State Variables
-solidity
-Copy code
+
+### State Variables
     uint256 public value1;
     uint256 public value2;
     uint256 public total;
-value1, value2, and total are state variables of type uint256 (unsigned 256-bit integer). They are marked as public, meaning getter functions are automatically created for them.
-Event Declaration
-
+* value1, value2, and total are state variables of type uint256 (unsigned 256-bit integer). They are marked as public, meaning getter functions are automatically created for them.
+  
+### Event Declaration
     event ValueUpdated(uint256 indexed value);
-This declares an event called ValueUpdated which logs when a value is updated. The indexed keyword allows filtering logs by this parameter.
-Functions to Set Values
-
+* This declares an event called ValueUpdated which logs when a value is updated. The indexed keyword allows filtering logs by this parameter.
+  
+### Functions to Set Values
     function setValue1(uint256 _newValue) public {
         value1 = _newValue;
         emit ValueUpdated(_newValue);
