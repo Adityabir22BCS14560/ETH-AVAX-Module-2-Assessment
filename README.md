@@ -71,9 +71,9 @@ This assessment is for showing smart contract management with 2-3 functions. The
 * These functions return the current values of value1 and value2. They are marked as view because they do not modify the state.
 
 ### How to run
-Get the starter template for index.js: [**starter-template**](https://github.com/MetacrafterChris/SCM-Starter/tree/main)
+* Get the starter template for index.js: [**starter-template**](https://github.com/MetacrafterChris/SCM-Starter/tree/main)
 
-Get the template here: [TEMPLATE HERE](https://github.com/MetacrafterChris/SCM-Starter)
+* Get the template here: [TEMPLATE HERE](https://github.com/MetacrafterChris/SCM-Starter)
 After cloning the github, you will want to do the following to get the code running on your computer.
 
 1. Inside the project directory, in the terminal type: npm i
