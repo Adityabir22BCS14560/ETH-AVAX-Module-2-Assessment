@@ -84,3 +84,11 @@ After cloning the github, you will want to do the following to get the code runn
 
 After this, the project will be running on your localhost. 
 Typically at http://localhost:3000/
+
+### Execution of program 
+* To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+* Open the Solidity file in the repository named as assessment.sol and copy the code and paste it to the IDE you use.
+* Add sol suffixes in your file name if you try to run it to the IDE so it read as a SOLIDITY FILE
+* Compile the code and then deploy it and use it freely.
+* * Run the program at http://localhost:3000/ too.
+  
