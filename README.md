@@ -1,6 +1,29 @@
 # ETH-AVAX-Module-2-Assessment
 This assessment is for showing smart contract management with 2-3 functions. Then show the values of those functions in frontend of the application.
 
+### How to run
+* Get the starter template for index.js: [**starter-template**](https://github.com/MetacrafterChris/SCM-Starter/tree/main)
+
+* Get the template here: [TEMPLATE HERE](https://github.com/MetacrafterChris/SCM-Starter)
+After cloning the github, you will want to do the following to get the code running on your computer.
+
+1. Inside the project directory, in the terminal type: npm i
+2. Open two additional terminals in your VS code
+3. In the second terminal type: npx hardhat node
+4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
+5. Back in the first terminal, type npm run dev to launch the front-end.
+
+After this, the project will be running on your localhost. 
+Typically at http://localhost:3000/
+
+### Execution of program 
+* To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+* Open the Solidity file in the repository named as assessment.sol and copy the code and paste it to the IDE you use.
+* Add sol suffixes in your file name if you try to run it to the IDE so it read as a SOLIDITY FILE
+* Compile the code and then deploy it and use it freely.
+* Run the program at http://localhost:3000/ too.
+  
+
 ## Solidity Code Explanation
 ### SPDX License Identifier
 #### // SPDX-License-Identifier: MIT
