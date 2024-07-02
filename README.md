@@ -1,4 +1,7 @@
 # ETH-AVAX-Module-2-Assessment
+Get the starter template for index.js: starter-template
+
+Get the template here: TEMPLATE HERE
 After cloning the github, you will want to do the following to get the code running on your computer.
 
 1. Inside the project directory, in the terminal type: npm i
