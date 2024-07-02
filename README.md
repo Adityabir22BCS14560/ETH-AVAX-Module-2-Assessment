@@ -34,9 +34,9 @@ This starts the definition of the SimpleCalculator contract.
         value2 = _newValue;
         emit ValueUpdated(_newValue);
     }
-setValue1 and setValue2 are functions that allow updating value1 and value2 respectively. Each function emits the ValueUpdated event when a new value is set.
-Arithmetic Functions
-
+* setValue1 and setValue2 are functions that allow updating value1 and value2 respectively. Each function emits the ValueUpdated event when a new value is set.
+  
+### Arithmetic Functions
     function Addition() public {
         total = value1 + value2;
     }
@@ -52,13 +52,14 @@ Arithmetic Functions
     function Division() public {
         total = value1 / value2;
     }
-These functions perform basic arithmetic operations on value1 and value2, storing the result in the total variable:
-Addition: Adds value1 and value2.
-Subtraction: Subtracts value2 from value1.
-Multiplication: Multiplies value1 by value2.
-Division: Divides value1 by value2 (note that this will throw an error if value2 is 0).
-Getter Functions
-
+    
+* These functions perform basic arithmetic operations on value1 and value2, storing the result in the total variable:
+1. Addition: Adds value1 and value2.
+2. Subtraction: Subtracts value2 from value1.
+3. Multiplication: Multiplies value1 by value2.
+4. Division: Divides value1 by value2 (note that this will throw an error if value2 is 0).
+   
+### Getter Functions
     function getValue1() public view returns (uint256) {
         return value1;
     }
@@ -67,7 +68,7 @@ Getter Functions
         return value2;
     }
 }
-These functions return the current values of value1 and value2. They are marked as view because they do not modify the state.
+* These functions return the current values of value1 and value2. They are marked as view because they do not modify the state.
 
 ### How to run
 Get the starter template for index.js: [**starter-template**](https://github.com/MetacrafterChris/SCM-Starter/tree/main)
